@@ -81,7 +81,7 @@ export const education = [
   },
   {
     id: 1,
-    img: dpsLogo,
+
     school: "Deepmala Pagarani Sanskar Public School, MP",
     date: "2021 – 2022",
     grade: "89.2%",

@@ -34,14 +34,16 @@ const Education = () => {
               index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
             }`}
           >
-            {/* Circle with Logo */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 bg-white dark:bg-[#0f0f0f] border-[4px] border-[#8245ec] w-16 h-16 rounded-full flex items-center justify-center shadow-lg z-20">
-              <img
-                src={edu.img}
-                alt={edu.school}
-                className="w-10 h-10 object-contain rounded-full"
-              />
-            </div>
+            {/* Show logo only if not 10th (id !== 1) */}
+            {edu.id !== 1 && (
+              <div className="absolute left-1/2 transform -translate-x-1/2 bg-white dark:bg-[#0f0f0f] border-[4px] border-[#8245ec] w-16 h-16 rounded-full flex items-center justify-center shadow-lg z-20">
+                <img
+                  src={edu.img}
+                  alt={edu.school}
+                  className="w-10 h-10 object-contain rounded-full"
+                />
+              </div>
+            )}
 
             {/* Education Card */}
             <div

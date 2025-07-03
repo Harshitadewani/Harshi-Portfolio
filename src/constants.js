@@ -15,9 +15,8 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 
 
 // Education Logos
-import jnctLogo from './assets/jnct_logo.jpeg';
-import dpsLogo from './assets/dps_logo.jpeg';
-
+import jnctLogo from './assets/education/jnct_logo.jpeg';
+import dpsLogo from './assets/education/dps_logo.jpeg';
 // Experience Logos (placeholder)
 
 
